@@ -1,0 +1,40 @@
+{
+  "name": "facebook-searcher",
+  "version": "0.0.1",
+  "description": "Searches, well, facebook I guess.",
+  "main": "app/index.js",
+  "dependencies": {
+    "express": "latest",
+    "request": "latest",
+    "cheerio": "latest"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "na"
+  },
+  "keywords": [
+    "na"
+  ],
+  "author": "Chris Ramsey",
+  "license": "MIT",
+  "jspm": {
+    "directories": {
+      "baseURL": "browser"
+    },
+    "dependencies": {
+      "angular": "github:angular/bower-angular@^1.4.2",
+      "angular-bootstrap": "github:angular-ui/bootstrap-bower@^0.13.0"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.1.13",
+      "babel-runtime": "npm:babel-runtime@^5.1.13",
+      "core-js": "npm:core-js@^0.9.4"
+    }
+  },
+  "devDependencies": {
+    "gulp-inject": "^1.3.1"
+  }
+}
